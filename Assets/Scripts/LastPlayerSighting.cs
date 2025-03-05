@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class LastPlayerSighting : MonoBehaviour
@@ -14,7 +13,7 @@ public class LastPlayerSighting : MonoBehaviour
     public float fadeSpeed = 7f;
 
     // 音乐
-    public float musicFadeSpeed = 1;
+    public float musicFadeSpeed = 1f;
     AlarmLight alarmScript; // 警报灯
     Light mainLight;
     AudioSource music;

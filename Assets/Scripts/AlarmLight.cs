@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class AlarmLight : MonoBehaviour
@@ -17,11 +16,6 @@ public class AlarmLight : MonoBehaviour
         alarmLight = GetComponent<Light>();
         alarmLight.intensity = 0;
         targetIntensity = highIntensity;
-    }
-
-    void Start()
-    {
-        
     }
 
     void Update()
