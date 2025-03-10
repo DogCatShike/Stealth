@@ -60,7 +60,7 @@ public class LastPlayerSighting : MonoBehaviour
         }
         mainLight.intensity = Mathf.Lerp(mainLight.intensity, newIntensity, fadeSpeed * dt);
 
-        for (int i = 0; i < sirens.Length; ++i)
+        for (int i = 0; i < sirens.Length; i++)
         {
             if (position != resetPosition && sirens[i].isPlaying)
             {
